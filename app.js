@@ -1,5 +1,5 @@
 let listasorteados = []
-let numeromax = 10;
+let numeromax = 100;
 let numero = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -11,7 +11,7 @@ function exibirTextoNaTela(tag, texto){
 
 function mensageminit(){
     exibirTextoNaTela('h1',"jogo do numero secreto" );
-    exibirTextoNaTela('p', "escolha um numero entre 1 e 10");
+    exibirTextoNaTela('p', "escolha um numero entre 1 e 100");
 }
 
 mensageminit();
@@ -67,6 +67,3 @@ function reiniciarJogo(){
     mensageminit();
     document.getElementById('reiniciar').setAttribute('disabled', true)
 }
-
-//ent se eu att aq, vai pro git?
-//nao morrr n vai nao kkkj
