@@ -67,6 +67,3 @@ function reiniciarJogo(){
     mensageminit();
     document.getElementById('reiniciar').setAttribute('disabled', true)
 }
-
-//ent se eu att aq, vai pro git?
-//nao morrr n vai nao kkkj
